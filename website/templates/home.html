@@ -1,0 +1,49 @@
+{% extends "base.html" %} {%block title%}Home{% endblock %} {%block content%}
+<head>
+  <link rel="stylesheet" href="/static/home.css" />
+</head>
+<body>
+  <h1>My Projects</h1>
+  <!-- <form method="POST">
+  <textarea
+    name="note"
+    id="note"
+    cols="30"
+    rows="10"
+    class="form-control"
+  ></textarea>
+</form> -->
+  <table class="projects">
+    <tr class="table-header">
+      <th>Project Title</th>
+      <th>Last Updated</th>
+      <th>Mentor</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+      <td><a href="#">Project A</a></td>
+      <td>Oct 29, 2022</td>
+      <td>Dr. Ramanathan Mukund</td>
+      <td class="ongoing">Ongoing</td>
+    </tr>
+    <tr>
+      <td><a href="#">Project B</a></td>
+      <td>Oct 29, 2022</td>
+      <td>Dr. Balasubramanian</td>
+      <td class="ongoing">Ongoing</td>
+    </tr>
+    <tr>
+      <td><a href="#">Project A</a></td>
+      <td>Oct 29, 2022</td>
+      <td>Prof. Manas Chebrolu</td>
+      <td>Completed</td>
+    </tr>
+    <tr>
+      <td><a href="#">Project A</a></td>
+      <td>Oct 29, 2022</td>
+      <td>Dr. Bharathi S</td>
+      <td>Completed</td>
+    </tr>
+  </table>
+</body>
+{% endblock %}
